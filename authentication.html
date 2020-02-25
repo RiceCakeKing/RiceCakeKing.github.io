@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>authentication</title>
+    
+</head>
+<body>
+    <h1>Activate Successfully</h1>
+    <a href="931.html">サイトへ</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script type="text/javascript">
+        function myEnter(){
+           myPassWord=prompt("Enter the password","");
+           if ( myPassWord == "1204" ){
+              location.href = "waitforredirect.html";
+           }else{
+              alert( "Password incorrect" );
+           }
+        }
+        // --></script>
+        
+        <form>
+        事件の起こった日付を入力してください 
+        <input type="button" value="入力" onclick="myEnter()">
+        </form>
+</body>
+</html>
